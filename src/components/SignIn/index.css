@@ -1,0 +1,150 @@
+.sign-in-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-back-text {
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.please-sign-in-text {
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #666666;
+  margin-top: 0px;
+}
+
+.input-container {
+  display: flex;
+  padding: 15px 20px;
+}
+
+.flag {
+  width: 30px;
+  height: 30px;
+}
+
+.dropdown {
+  width: 75px;
+  border: none;
+}
+
+.input-field-bg-container {
+  border: 2px solid #ffd37d;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 40px;
+  width: 90%;
+}
+
+.phone_no_label {
+  position: absolute;
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: -8px;
+  left: 10px;
+  background-color: white;
+  color: #999999;
+  padding: 0px 5px;
+}
+
+.option {
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+
+.input {
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 5px 10px;
+  border: none;
+  color: #333333;
+  outline: none;
+  width: 100%;
+}
+
+.charges-note {
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #999999;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.sign-in-button {
+  width: 224px;
+  height: 36px;
+  top: 658px;
+  left: 75px;
+  border-radius: 100px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  background: #f7b348;
+  border: none;
+  margin-top: 80px;
+}
+
+.company-logo {
+  width: 180px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px 20px;
+    border-radius: 5px;
+  }
+}
+
+.error-msg {
+  color: red;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+}

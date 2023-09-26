@@ -1,0 +1,123 @@
+.verify-bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.verify-number-text {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  margin-top: 40px;
+}
+
+.otp-sent-text {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #666666;
+  margin-top: 10px;
+}
+
+.number {
+  color: #333333;
+  font-weight: 500;
+}
+
+.change-number {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-decoration: underline;
+  color: #f7b348;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.code-not-received-text {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #999999;
+  margin-top: 50px;
+}
+
+.resend {
+  color: #f7b348;
+  cursor: pointer;
+}
+
+.verify-button {
+  width: 224px;
+  height: 36px;
+  top: 658px;
+  left: 75px;
+  border-radius: 100px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  background: #f7b348;
+  border: none;
+  margin-top: 20px;
+}
+
+.verify-logo {
+  width: 180px;
+}
+
+.verify-image-container {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .verify-card {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px 50px;
+    border-radius: 5px;
+  }
+}
+
+.otp-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.otp-box {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.wrong-otp-error {
+  color: red;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
